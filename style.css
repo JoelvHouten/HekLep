@@ -18,11 +18,24 @@
 }
 
 .nav-link{
+    font-size: 1.1rem;
     margin-left: 5rem;
     font-weight: bold;
 }
 
 .btn-contact{
+    font-size: 1.1rem;
     margin-left: 5rem;
     background-color: #09558b;
+    color:#ffffff;
+    border-radius: 20px;
+    padding: 10px 25px 10px 25px;
+    border: 0;
+}
+
+.btn-contact:hover,
+.btn-contact:active{
+    background-color: #2aa35f !important;
+    color:#ffffff;
+    border: 0;
 }
