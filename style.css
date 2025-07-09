@@ -5,15 +5,20 @@
     font-family: Solway;
 }
 
+/* custom classes */
+
+.rounded-20{
+    border-radius: 20px !important;
+}
+
+/* navbar style */
+
 .navbar{
-    background-color: #d8d8d8;
+    background-color: #b1b2b5;
     --bs-navbar-padding-y: 0rem !important;
 }
 
 .navbar-title{
-    margin-left: 1rem;
-    font-size: 3rem;
-    font-weight: bold;
     color: #09558b;
 }
 
@@ -23,12 +28,15 @@
     font-weight: bold;
 }
 
+.nav-link:hover{
+    color: #09558b !important;
+}
+
 .btn-contact{
     font-size: 1.1rem;
     margin-left: 5rem;
     background-color: #09558b;
-    color:#ffffff;
-    border-radius: 20px;
+    color:white;
     padding: 10px 25px 10px 25px;
     border: 0;
 }
@@ -36,6 +44,60 @@
 .btn-contact:hover,
 .btn-contact:active{
     background-color: #2aa35f !important;
-    color:#ffffff;
+    color:white !important;
+    border: 0;
+}
+
+/* hero style */
+
+.hero{
+    background-color: #09558b;
+}
+
+.hero-p{
+    font-size: 1.9rem;
+}
+
+.hero-img-crop{
+    width: 800px;
+    height: 550px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.hero-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transform: scale(1.5);
+}
+
+.btn-green{
+    font-size: 1.8rem;
+    background-color: #2aa35f;
+    color: white;
+    border: 0;
+}
+
+.btn-green:hover,
+.btn-green:active{
+    background-color: #1c8349 !important;
+    color: white !important;
+    border: 0;
+}
+
+.btn-yellow{
+    font-size: 1.8rem;
+    background-color: #f0be2b;
+    color: black;
+    border: 0;
+}
+
+.btn-yellow:hover,
+.btn-yellow:active{
+    font-size: 1.8rem;
+    background-color: #cca225 !important;
+    color: black !important;
     border: 0;
 }
