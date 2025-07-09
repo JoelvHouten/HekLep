@@ -41,7 +41,6 @@ a{
 
 .nav-link{
     font-size: 1.1rem;
-    margin-left: 5rem;
     font-weight: bold;
 }
 
@@ -51,7 +50,6 @@ a{
 
 .btn-contact{
     font-size: 1.1rem;
-    margin-left: 5rem;
     background-color: #09558b;
     color:white;
     padding: 10px 25px 10px 25px;
@@ -189,4 +187,64 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+/* mobile style */
+
+@media (max-width: 1200px) {
+
+.navigation{
+    display: none !important;
+}
+
+.hero-img,
+.hero-img-crop{
+    display: none;
+}
+
+.hero-responsive{
+    width: 100%;
+    text-align: center;
+}
+
+.hero-responsive-title{
+    margin-top: 2rem;
+    font-size: 5rem;
+}
+
+.btn-green{
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
+.btn-yellow{
+    margin-bottom: 5rem;
+}
+
+.hero-btn-responsive{
+    display: block !important;
+}
+}
+
+@media (max-width: 800px) {
+
+.navbar{
+    --bs-navbar-padding-y: 0.5rem !important;
+}
+
+.navbar-brand img{
+    width: 65px;
+    height: 65px;
+}
+
+.btn-green{
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.btn-yellow{
+    width: 80%;
+    margin-bottom: 5rem;
+}
+
 }
