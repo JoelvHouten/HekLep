@@ -11,6 +11,10 @@
     border-radius: 20px !important;
 }
 
+p{
+    font-size: 1.175rem;
+}
+
 /* navbar style */
 
 .navbar{
@@ -100,4 +104,10 @@
     background-color: #cca225 !important;
     color: black !important;
     border: 0;
+}
+
+/* unique selling points style */
+
+.unique-selling-points{
+    background-color: white;
 }
