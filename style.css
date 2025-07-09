@@ -5,6 +5,10 @@
     font-family: Solway;
 }
 
+html{
+    height: 100%;
+}
+
 /* custom classes */
 
 .rounded-20{
@@ -17,6 +21,11 @@
 
 p{
     font-size: 1.15rem;
+}
+
+a{
+    text-decoration: none;
+    border: 0;
 }
 
 /* navbar style */
@@ -167,4 +176,17 @@ p{
 
 .testimonial-name{
     text-align: right;
+}
+
+/* footer style */
+
+.footer{
+    background-color: #09558b;
+    height: 100%;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
