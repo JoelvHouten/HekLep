@@ -2,4 +2,27 @@
     margin : 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Solway;
+}
+
+.navbar{
+    background-color: #d8d8d8;
+    --bs-navbar-padding-y: 0rem !important;
+}
+
+.navbar-title{
+    margin-left: 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #09558b;
+}
+
+.nav-link{
+    margin-left: 5rem;
+    font-weight: bold;
+}
+
+.btn-contact{
+    margin-left: 5rem;
+    background-color: #09558b;
 }
