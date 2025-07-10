@@ -11,6 +11,10 @@
     border-radius: 20px !important;
 }
 
+p{
+    font-size: 1.15rem;
+}
+
 /* navbar style */
 
 .navbar{
@@ -100,4 +104,41 @@
     background-color: #cca225 !important;
     color: black !important;
     border: 0;
+}
+
+/* unique selling points style */
+
+.unique-selling-points{
+    background-color: white;
+}
+
+/* product grid style */
+
+.product-grid{
+    background-color: #e7f3fe;
+}
+
+.featured-card img{
+    height: 200px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.featured-card{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.featured-card-text{
+    height: 250px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.featured-card-price{
+    color: #2aa35f;
+    margin-top: auto;
+    display: inline-block;
 }
