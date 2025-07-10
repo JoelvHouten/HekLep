@@ -22,9 +22,9 @@
                     <img src="images/logo.png" alt="HekLep logo" width="50" height="50">
                     <span class="navbar-title fw-bold display-4 ms-3">HekLep</span>
                 </a>
-                <div class="ms-auto d-flex align-items-center">
+                <div class="navigation ms-auto d-flex align-items-center gap-5">
                     <a href="#" class="nav-link">Hekstratjes</a>
-                    <a href="#" class="nav-link">Over ons</a>
+                    <a href="#" class="nav-link ">Over ons</a>
                     <a href="#" class="nav-link">Alle hekken</a>
                     <a href="#" class="btn btn-contact rounded-20">Contact</a>
                 </div>
@@ -34,12 +34,12 @@
         <section class="hero">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-6 d-flex flex-column justify-content-center">
+                    <div class="hero-responsive col-md-6 d-flex flex-column justify-content-center">
                         <div class="hero-wrapper">
-                            <h1 class="fw-bold display-2 text-white mb-5">Hek kopen?</h1>
-                            <p class="col-8 text-white hero-p mb-5 pr-3">Van tuin tot gevangenis: wij hebben het hek dat bij je past.</p>
+                            <h1 class="hero-responsive-title fw-bold display-2 text-white mb-5">Hek kopen?</h1>
+                            <p class="hero-responsive col-8 text-white hero-p mb-5 pr-3">Van tuin tot gevangenis: wij hebben het hek dat bij je past.</p>
                         </div>
-                        <div class="d-flex gap-2"> 
+                        <div class="hero-btn-responsive d-flex gap-2"> 
                             <a class="col-4 btn btn-green rounded-20" href="#">Bekijk onze hekken</a>
                             <a class="col-6 btn btn-yellow rounded-20" href="#">Vraag een offerte (voor je buren)</a>
                         </div>
@@ -91,53 +91,58 @@
         <section class="product-grid py-5">
             <div class="container">
                 <h1 class="text-center mb-5 fw-bold">Uitgelichte hekken</h1>
-                <div class="row g-2">
-                    <div class="col-md-3">
+                
+                <div class="product-grid-reverse d-flex flex-wrap justify-content-center gap-4">
+                    
+                    <div class="featured-card-wrapper">
                         <div class="featured-card rounded-20 bg-white">
 
                         <img src="images/sierhek.jpg" class="img-fluid mb-1" alt="sierhek">
 
-                            <div class="featured-card-text p-3">
-                                <h4>Sierhek</h4>
-                                <p>Voor de romantici onder ons. Ziet eruit alsof het uit italië komt,maar gewoon in Veenendaal gemaakt.</p>
-                                <p class="fw-bold mt-auto">Vanaf <span class="featured-card-price">€149</span> per meter</p>
-                            </div>
+                        <div class="featured-card-text p-3 d-flex flex-column h-100">
+                            <h4>Sierhek</h4>
+                            <p>Voor de romantici onder ons. Ziet eruit alsof het uit italië komt, maar gewoon in Veenendaal gemaakt.</p>
+                            <p class="fw-bold mt-auto">Vanaf <span class="featured-card-price">€149</span> per meter</p>
+                        </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+
+                    <div class="featured-card-wrapper">
                         <div class="featured-card rounded-20 bg-white">
 
                         <img src="images/tuinhek.webp" class="img-fluid mb-1" alt="tuinhek">
 
-                            <div class="featured-card-text p-3">
-                                <h4>Tuinhek</h4>
-                                <p>Natuurvriendelijk en burenproof. Bonus: Panda’s vinden dit heerlijk.</p>
-                                <p class="fw-bold mt-auto">Vanaf <span class="featured-card-price">€89</span> per meter</p>
-                            </div>
+                        <div class="featured-card-text p-3 d-flex flex-column h-100">
+                            <h4>Tuinhek</h4>
+                            <p>Natuurvriendelijk en burenproof. Bonus: Panda’s vinden dit heerlijk.</p>
+                            <p class="fw-bold mt-auto">Vanaf <span class="featured-card-price">€89</span> per meter</p>
+                        </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+
+                    <div class="featured-card-wrapper">
                         <div class="featured-card rounded-20 bg-white">
 
                         <img src="images/industriehek.jpg" class="img-fluid mb-1" alt="industriehek">
 
-                            <div class="featured-card-text p-3">
-                                <h4>Industriehek</h4>
-                                <p>Als je écht geen ongewenst bezoek wilt. Houdt alles tegen – behalve regen.</p>
-                                <p class="fw-bold mt-auto">Vanaf <span class="featured-card-price">€179</span> per meter</p>
-                            </div>
+                        <div class="featured-card-text p-3 d-flex flex-column h-100">
+                            <h4>Industriehek</h4>
+                            <p>Als je écht geen ongewenst bezoek wilt. Houdt alles tegen – behalve regen.</p>
+                            <p class="fw-bold mt-auto">Vanaf <span class="featured-card-price">€179</span> per meter</p>
+                        </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+
+                    <div class="featured-card-wrapper">
                         <div class="featured-card rounded-20 bg-white">
 
                         <img src="images/draadhek.jpg" class="img-fluid mb-1" alt="draadhek">
 
-                            <div class="featured-card-text p-3">
-                                <h4>Draadhek</h4>
-                                <p>Voor als je iets zoekt dat werkt, maar geen statements maakt.</p>
-                                <p class="fw-bold mt-auto">Vanaf <span class="featured-card-price">€49</span> per meter</p>
-                            </div>
+                        <div class="featured-card-text p-3 d-flex flex-column h-100">
+                            <h4>Draadhek</h4>
+                            <p>Voor als je iets zoekt dat werkt, maar geen statements maakt.</p>
+                            <p class="fw-bold mt-auto">Vanaf <span class="featured-card-price">€49</span> per meter</p>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -147,7 +152,7 @@
         <section class="social-proof py-5">
             <div class="container ">
                 <div class="row gap-6">
-                    <div class="col-md-6">
+                    <div class="social-testimonial-responsive col-md-6">
                         <div class="testimonial rounded-20 fw-bold mb-4">“Ik dacht: het is maar een hek. Maar dit is een lifestyle.”
                             <div class="testimonial-name mt-3 fw-normal">— Jan uit Utrecht</div>
                         </div>
@@ -158,8 +163,8 @@
                             <div class="testimonial-name mt-3 fw-normal">— Familie van Dijk, Haarlem</div>
                         </div>
                     </div>
-                    <div class="col-md-5 text-left">
-                        <h4 class="fw-bold mb-3 col-10">Wat mensen zeggen die niet meer over hun hek kunnen kijken</h4>
+                    <div class="social-responsive-wrapper col-md-5 text-left">
+                        <h4 class="social-title-responsive fw-bold mb-3 col-10">Wat mensen zeggen die niet meer over hun hek kunnen kijken</h4>
                         <div class="fs-3 social-stars">★★★★★</div>
                         <p>4.8 uit 5 (volledig ongekocht, beloofd)</p>
                     </div>

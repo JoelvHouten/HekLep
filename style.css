@@ -41,7 +41,6 @@ a{
 
 .nav-link{
     font-size: 1.1rem;
-    margin-left: 5rem;
     font-weight: bold;
 }
 
@@ -51,7 +50,6 @@ a{
 
 .btn-contact{
     font-size: 1.1rem;
-    margin-left: 5rem;
     background-color: #09558b;
     color:white;
     padding: 10px 25px 10px 25px;
@@ -137,14 +135,18 @@ a{
     border-radius: 20px 20px 0px 0px;
 }
 
+.featured-card-wrapper {
+    width: 280px; 
+    flex: 0 0 auto;
+}
+
 .featured-card{
     display: flex;
     flex-direction: column;
-    height: 100%;
 }
 
 .featured-card-text{
-    height: 250px;
+    height: 250px !important;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -189,4 +191,125 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+/* mobile style */
+
+@media (max-width: 1400px) {
+
+/* navbar styles responsive */
+
+.navigation{
+    display: none !important;
+}
+
+/* hero styles responsive */
+
+.hero-img,
+.hero-img-crop{
+    display: none;
+}
+
+.hero-responsive{
+    width: 100%;
+    text-align: center;
+}
+
+.hero-responsive-title{
+    margin-top: 2rem;
+    font-size: 5rem;
+}
+
+.btn-green{
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
+.btn-yellow{
+    margin-bottom: 5rem;
+}
+
+.hero-btn-responsive{
+    display: block !important;
+}
+
+/* social proof */
+
+.social-testimonial-responsive{
+    width: 100%;
+}
+
+.social-responsive-wrapper{
+    text-align: center;
+    width: 100%;
+}
+
+.social-title-responsive{
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+}
+
+}
+
+@media (max-width: 767px) {
+
+/* navbar styles responsive */
+
+.navbar{
+    --bs-navbar-padding-y: 0.5rem !important;
+}
+
+.navbar-brand img{
+    width: 65px;
+    height: 65px;
+}
+
+/* hero styles responsive */
+
+.btn-green{
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.btn-yellow{
+    width: 80%;
+    margin-bottom: 5rem;
+}
+
+/* grid styles responsive */
+
+h1{
+    font-size: 3rem;
+}
+
+.product-grid{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.product-grid-reverse{
+    flex-direction: column-reverse;
+}
+
+.featured-card-wrapper{
+    width: 100%;
+}
+
+.featured-card-wrapper img{
+    height: 100%;
+}
+
+/* social proof */
+
+.social-responsive-wrapper{
+    text-align: center;
+}
+
+.social-title-responsive{
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+}
+
 }
