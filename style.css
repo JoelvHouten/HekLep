@@ -2,4 +2,40 @@
     margin : 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Solway;
+}
+
+.navbar{
+    background-color: #d8d8d8;
+    --bs-navbar-padding-y: 0rem !important;
+}
+
+.navbar-title{
+    margin-left: 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #09558b;
+}
+
+.nav-link{
+    font-size: 1.1rem;
+    margin-left: 5rem;
+    font-weight: bold;
+}
+
+.btn-contact{
+    font-size: 1.1rem;
+    margin-left: 5rem;
+    background-color: #09558b;
+    color:#ffffff;
+    border-radius: 20px;
+    padding: 10px 25px 10px 25px;
+    border: 0;
+}
+
+.btn-contact:hover,
+.btn-contact:active{
+    background-color: #2aa35f !important;
+    color:#ffffff;
+    border: 0;
 }
