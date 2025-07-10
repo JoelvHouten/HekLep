@@ -85,7 +85,7 @@ a{
     animation: growDown 500ms ease-in-out forwards
 }
 
-#dropdown-nav .nav-link{
+#dropdown-nav .nav-dropdown-link{
     text-align: center;
     font-size: 1.25rem;
     padding-top: 1rem;
@@ -93,7 +93,7 @@ a{
     border-bottom: 1px solid #b1b2b5;
 }
 
-.nav-link:hover{
+.nav-dropdown-link:hover{
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: #a5a5a5;
