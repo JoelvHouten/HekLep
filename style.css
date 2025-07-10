@@ -11,6 +11,10 @@
     border-radius: 20px !important;
 }
 
+.gap-6{
+    gap: 6rem;
+}
+
 p{
     font-size: 1.15rem;
 }
@@ -141,4 +145,26 @@ p{
     color: #2aa35f;
     margin-top: auto;
     display: inline-block;
+}
+
+/* social proof style */
+
+.social-proof{
+    background-color: #d8d8d8;
+}
+
+.social-stars{
+    font-size: 3rem !important;
+    margin-right: 1rem;
+    color: #f0be2b;
+}
+
+.testimonial {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.testimonial-name{
+    text-align: right;
 }
